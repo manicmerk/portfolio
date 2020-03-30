@@ -3,38 +3,43 @@
 
     <head>
         <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="responsive.css">
     </head>
 
 
     <body>
         <!-- Start of Header -->
         <header>
-            <a href="index.html">
+            <a href="index.html" id="logo">
                 <h1>Ben Merk</h1>
                 <h2>Front End Web Developer</h2>
-
+            </a>
                 <!-- Start of Nav -->
+                <nav>
                 <ul>
                     <li>
                         <a href="index.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html" class="selected">About</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
+                </nav>
                 <!-- End of Nav -->
-            </a>
+             
         </header>
         <!-- End of Header -->
         
         <!-- Start of About -->
-        <div>
+        <div id="wrapper">
             <section>
                 <!-- image -->
-                <img src="#" alt="photo of me">
+                <img src="/img/me-cap-america.jpg" alt="photo of me" class="profile-photo">
                 
                 <!-- title -->
                 <h3>About</h3>
@@ -48,8 +53,8 @@
         
         <!-- Start of Footer -->
         <footer>
-            <a href="https://www.twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
-            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook-wrap.png"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="img/twitter-wrap.png" class= "social-icon"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook-wrap.png" class= "social-icon"></a>
             <p>&copy; 2020 Ben Merk</p>
         </footer>
         <!-- End of Footer -->

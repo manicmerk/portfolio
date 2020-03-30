@@ -3,20 +3,24 @@
 
     <head>
         <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="responsive.css">
     </head>
 
 
     <body>
         <!-- Start of Header -->
         <header>
-            <a href="index.html">
+            <a href="index.html" id="logo">
                 <h1>Ben Merk</h1>
                 <h2>Front End Web Developer</h2>
-
+            </a>
                 <!-- Start of Nav -->
+            <nav>
                 <ul>
                     <li>
-                        <a href="index.html">Portfolio</a>
+                        <a href="index.html" class="selected">Portfolio</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -25,35 +29,41 @@
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
+            </nav>
                 <!-- End of Nav -->
-            </a>
+            
         </header>
         <!-- End of Header -->
         
         <!-- Start of Gallery -->
-        <div>
+        <div id="wrapper">
             <section>
-                <ul>
+                <ul id="gallery">
                     <li>
                         <img src="img/numbers-01.jpg" alt="Number 1">
-                    </li>
+                    
                     <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
                     <li>
                         <img src="img/numbers-02.jpg" alt="Number 2">
-                    </li>
+                    
                     <p>2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
                     <li>
                         <img src="img/numbers-06.jpg" alt="Number 6">
-                    </li>
+                    
                     <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
                     <li>
                         <img src="img/numbers-09.jpg" alt="Number 9">
-                    </li>
+                    
                     <p>4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
                     <li>
                         <img src="img/numbers-12.jpg" alt="Number 12">
-                    </li>
+                    
                     <p>5. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
                 </ul>
             </section>
         </div>
@@ -61,8 +71,8 @@
         
         <!-- Start of Footer -->
         <footer>
-            <a href="https://www.twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
-            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook-wrap.png"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="img/twitter-wrap.png" class= "social-icon"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook-wrap.png" class= "social-icon"></a>
             <p>&copy; 2020 Ben Merk</p>
         </footer>
         <!-- End of Footer -->
